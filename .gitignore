@@ -1,0 +1,39 @@
+# 🐍 Ignorar archivos compilados de Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.cache
+
+# 📦 Ignorar dependencias (se instalan con `pip install -r requirements.txt`)
+env/
+venv/
+*.egg-info/
+pip-log.txt
+pip-delete-this-directory.txt
+
+# 🔒 Ignorar variables de entorno y credenciales
+.env
+*.env
+*.secrets
+
+# 🔄 Ignorar archivos de logs
+logs/
+*.log
+
+# 🗃 Ignorar base de datos SQLite (si la usas)
+*.sqlite3
+*.db
+*.sqlite
+
+# 🚀 Ignorar configuraciones de IDEs (VSCode, PyCharm, etc.)
+.vscode/
+.idea/
+*.iml
+
+# 🚀 Ignorar archivos de despliegue en Docker
+docker-compose.override.yml
+.Dockerfile
+
+# 🚀 Ignorar archivos de despliegue en Render
+render.yaml
